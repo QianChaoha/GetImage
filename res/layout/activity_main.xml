@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.example.image.view.AddPictureGrideView
+        android:id="@+id/gv_add_file"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="5dp"
+        android:numColumns="4"
+        android:orientation="vertical"
+        android:verticalSpacing="5dp" >
+    </com.example.image.view.AddPictureGrideView>
+
+</LinearLayout>
